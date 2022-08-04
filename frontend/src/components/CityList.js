@@ -21,7 +21,7 @@ function CityList() {
   console.log({cities})
   useEffect(() => {
     dispatch(getCities())
-  }, [])
+  }, [dispatch])
 
   return (
     <div >
